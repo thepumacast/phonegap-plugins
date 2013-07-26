@@ -681,6 +681,7 @@
                                   ];
 	
 	int count = [arguments count];
+	//i think n must start in 1 because otherwhise we will have an actionSheet with a button named "INVALID"
 	for(int n = 0; n < count; n++)
 	{
 		[ actionSheet addButtonWithTitle:[arguments objectAtIndex:n]];
